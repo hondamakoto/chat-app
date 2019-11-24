@@ -1,0 +1,6 @@
+﻿Goal Send messages to correct room
+
+1. Use getUser inside "sendMessage" event handler to get user data
+2. Emit the message to their current room
+3. Test your work!
+4. Repeat for "sendLocation"

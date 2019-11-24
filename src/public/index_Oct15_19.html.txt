@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+    <body>
+        <h1>Chat app !</h1>
+        <form id="message-form">
+<!-- #1 -->
+            <!-- <input placeholder="message"> -->
+<!-- #2 -->
+            <input name="messageInput" placeholder="message">
+<!-- #3 by me doesn't work... -->
+            <!-- <input name="messageInput" type="text" value="message"> -->
+
+            <button>Send</button>
+        </form>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/chat.js"></script>
+    </body>
+</html>

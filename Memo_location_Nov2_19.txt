@@ -1,0 +1,7 @@
+﻿location.search
+でURLのクエリを抽出する。
+
+Qs.parse(location.search, { ignoreQueryPrefix: true })
+
+
+
